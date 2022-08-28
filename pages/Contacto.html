@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/estilo.css">
+	<style>
+		button{
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<header class="gradient">
+		<div class="mover_encabezado bgColor-encabezado">
+			<img src="../assets/img/logo.png" alt="logo" height="100" width="100" class="animacionImg">
+		</div>
+		<nav>
+			<ul class="nav">
+				<li class="padding border margin, lista barra"><a class="texto-decoracion transition" href="../index.html">INICIO</a></li>
+				<li class="padding border margin, lista barra"><a class="texto-decoracion transition" href="../pages/Servicios.html">SERVICIOS</a></li>
+				<li class="padding border margin, lista barra"><a class="texto-decoracion transition" href="../pages/ubicacion.html">UBICACION</a></li>
+				<li class="padding border margin, lista barra"><a class="texto-decoracion transition" href="../pages/contacto.html">CONTACTO</li>
+				<li class="padding border margin, lista barra"><a class="texto-decoracion transition" href="../pages/inventario.html">INVENTARIO</a></li>
+			</ul>
+			</ul>
+		</nav>
+		</header>
+
+		<!--Contáctenos-->
+        <h2 class="centrar bajar letraTipoEntrenamiento">✉ CONTÁCTENOS ✉</h2>
+        <div class="contenedorContactenos">
+            <form class="contenedorContactenos__formulario" action="" method="post">
+            <fieldset >
+                    <legend>Información del Contacto</legend>
+                        <div>
+                            <!--label for="Nombre">Ingrese su nombre:</label-->
+                            <input type="text" id="Nombre" placeholder="Nombres...">   
+                            
+                            <!--label for="Apellido">Ingrese su apellido:</label-->
+                            <input type="text" id="Apellido" placeholder="Apellidos...">
+                            <br>
+                            <br>
+                        </div>
+                        <div>
+                            <label for="email">Correo: </label>
+                            <input type="email" name="Correo" id="email" placeholder="ejemplo@hotmail.com">
+                            <label for="text">Seleccione: </label>
+                            <select name="género" id="Género">
+                                <option value=""> - - - - -</option>
+                                <option value="Femenino">Femenino</option>
+                                <option value="Maculino">Masculino</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                            <br><br>
+                        </div>
+                        <div>
+                            <label for="Edad">Edad:</label>
+                            <input type="number" name="Edad" id="edad" placeholder="22">
+                        </div>        
+            </fieldset>  
+                <div>
+                    <br>
+                    <input type="checkbox" name="acepta" value="1">Guardar información para la próxima.                       
+                </div>  
+                    <textarea placeholder="Escribe un comentario o una consulta..."></textarea>
+                    <div class="contenedorFlex4">
+                        <input class="botonFormulario" type="submit" value="Enviar">
+                        <input class="botonFormulario" type="reset" value="Limpiar casillas">
+                    </div>                  
+            </form>
+    </div>
+
+		<!--<main class=" bgColor fondo-contacto ">
+			<div>
+				<h1>CONTACTO</h1>
+				<p>Aca podra poner reclamos que tenga con la empresa y en un plazo de 48 horas le estaremos contestando a su coreeo electronico.</p>
+			</div>
+				<form action="">
+					<label for="pepe"> Nommbre completo:</label>
+					<input type="text" name="nombre"><br><br>
+					<label for="pepe"> Correo electronico:</label>
+					<input type="text" name="correo"><br><br>
+					
+					<div>Femenino</div>
+					<input type="radio" name="lado" value="I">
+					<div>Masculino</div>
+					<input type="radio" name="lado" value="D"><br>
+					<div>Escriba aca su reclamo que tiene con la empresa:</div>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<input type="submit" value="enviar">
+				</form>
+
+			</main>-->
+
+			<footer class="border gradient">
+                <div class="logo">
+                    <img src="../assets/img/logo.png" alt="logo" height="100" width="100">
+                </div>
+                <div class="rrss">
+                    <h3>REDES SOCIALES</h3>
+                    <a href="https://www.facebook.com/groups/teksystem.co" >
+                        <img src="../assets/img/facebook.png" alt="logo" height="70" width="70">
+                        <img src="../assets/img/instagram.png" alt="logo" height="70" width="70">
+                    
+                    </a>
+                </div>
+                <div class="contacto">
+                    <h3>CONTACTO</h3>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B51953376891&text&type=phone_number&app_absent=0" >
+                        <img src="../assets/img/WhatsApp.png" alt="logo whatsapp"height="70" width="70" >
+                    </a>
+                </div>
+            </footer>
+</body>
+</html>
