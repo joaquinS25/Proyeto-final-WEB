@@ -116,7 +116,19 @@ h3, p{
     text-align: center;
 }
 
-
+/*ANIMACION LOGO HEADER*/
+@keyframes movimiento{
+	0%{transform: translateX(100px);}
+	25%{transform: skew(60deg,60deg);}
+	50%{transform: rotate(45deg);}
+	75%{transform: translate(100px, 100px);}
+	100%{transform: scale(2,0);}
+}
+.animacionImg{
+	animation-name: movimiento;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
+}
 
 
 /*contactanos*/
