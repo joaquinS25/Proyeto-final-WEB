@@ -73,9 +73,9 @@ h3, p{
 	transition: all 1s;
 }
 .transition:hover{
-	width: 280px;
+	width: 200px;
 	cursor: pointer;
-	font-size: 50px;
+	font-size: 20px;
 }
 
 /*PRODUCTO MAS VENDIDOS*/
