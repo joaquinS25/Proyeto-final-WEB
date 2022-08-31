@@ -22,31 +22,31 @@
             <img src="../assets/img/logo.png" alt="logo" height="100" width="100" class="animacionImg">
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light gradient">
-            <div class="container-fluid">
-                <li class="nav-item padding lista barra transition">
-                    <a class="navbar-brand" href="../index.html">INICIO</a>
-                </li>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item padding lista barra transition">
-                    <a class="nav-link" aria-current="page" href="../pages/Servicios.html">SERVICIOS</a>
+              <div class="container-fluid ">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse btn-group" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item padding lista barra transition">
+                      <a class="navbar-brand btn btn-success" href="../index.html">INICIO</a>
                   </li>
-                  <li class="nav-item padding lista barra transition">
-                    <a class="nav-link" href="../pages/Ubicacion.html">	UBICACION</a>
-                  </li>
-                  <li class="nav-item padding lista barra transition">
-                    <a class="nav-link" href="../pages/Contacto.html">CONTACTO</a>
-                  </li>
-                  <li class="nav-item padding lista barra transition">
-                    <a class="nav-link" href="../pages/Inventario.html">INVENTARIO</a>
-                  </li>
-                </ul>
+                    <li class="nav-item padding lista barra transition">
+                      <a class="nav-link btn btn-success" aria-current="page" href="../pages/Servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item padding lista barra transition">
+                      <a class="nav-link btn btn-success" href="../pages/Ubicacion.html">	UBICACION</a>
+                    </li>
+                    <li class="nav-item padding lista barra transition">
+                      <a class="nav-link btn btn-success" href="../pages/Contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item padding lista barra transition">
+                      <a class="nav-link btn btn-success" href="../pages/Inventario.html">INVENTARIO</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </nav>
+            </nav>
     </header>
 
 		<!--Contáctenos-->
@@ -92,29 +92,43 @@
                     </div>                  
             </form>
     </div>
-
-		<!--<main class=" bgColor fondo-contacto ">
-			<div>
-				<h1>CONTACTO</h1>
-				<p>Aca podra poner reclamos que tenga con la empresa y en un plazo de 48 horas le estaremos contestando a su coreeo electronico.</p>
-			</div>
-				<form action="">
-					<label for="pepe"> Nommbre completo:</label>
-					<input type="text" name="nombre"><br><br>
-					<label for="pepe"> Correo electronico:</label>
-					<input type="text" name="correo"><br><br>
-					
-					<div>Femenino</div>
-					<input type="radio" name="lado" value="I">
-					<div>Masculino</div>
-					<input type="radio" name="lado" value="D"><br>
-					<div>Escriba aca su reclamo que tiene con la empresa:</div>
-					<textarea name="" id="" cols="30" rows="10"></textarea>
-					<input type="submit" value="enviar">
-				</form>
-
-			</main>-->
-
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">NOMBRE COMPLETO</label>
+          <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label"> CORREO</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">SELECCIONE</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>MASCULINO</option>
+            <option>FEMENINO</option>
+            <option>OTRO</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">EDAD</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              GUARDAR INFORMACION PARA KA PROXIMA
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">ENVIAR</button>
+        </div>
+      </form>
 			<footer class="border gradient">
                 <div class="logo">
                     <img src="../assets/img/logo.png" alt="logo" height="100" width="100">

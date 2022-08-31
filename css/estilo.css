@@ -1,7 +1,6 @@
 *{margin: 0;padding: 0;}
 
 .barra{list-style-type:none; padding: 10px; margin: 10px;}
-/*.texto-decoracion{text-decoration: none;}*/
 .nav{display: flex;justify-content: flex-end;flex-wrap: wrap;}
 .gridContainer{
 	display: grid;
@@ -190,4 +189,9 @@ input{
     margin-bottom: 20px;
     width: 200px;
     height: 25px;
+}
+
+/*NAVBAR*/
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 5.56rem;
 }
