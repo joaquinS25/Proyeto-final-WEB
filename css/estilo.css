@@ -63,20 +63,8 @@ h3, p{
 .txtMain{grid-area: txtMain; padding: 15;margin: 15;}
 
 .gradient{
-	background-image: linear-gradient(white,lightblue,blue);
+	background-image: linear-gradient(white,rgb(116, 241, 123),rgb(11, 206, 28));
 }
-
-/*ANIMACION NAV*/
-.transition{
-	width: 100px;
-	transition: all 1s;
-}
-.transition:hover{
-	width: 200px;
-	cursor: pointer;
-	font-size: 20px;
-}
-
 /*PRODUCTO MAS VENDIDOS*/
 .letraTipoProducto{
 	padding: 20px;
@@ -173,10 +161,3 @@ input{
     height: 25px;
 }
 
-/*NAVBAR*/
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding-right: 5.56rem;
-}
-header{
-    z-index: 1;
-}
