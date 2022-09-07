@@ -161,3 +161,10 @@ input{
     height: 25px;
 }
 
+/*NAVBAR*/
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 5.56rem;
+}
+header{
+    z-index: 1;
+}
