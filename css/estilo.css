@@ -15,6 +15,28 @@ header {
     justify-content: flex-end;
     flex-wrap: wrap; }
 
+/*ANIMACION LOGO HEADER*/
+@keyframes movimiento {
+  0% {
+    transform: translateX(100px); }
+  25% {
+    transform: skew(60deg, 60deg); }
+  50% {
+    transform: rotate(45deg); }
+  75% {
+    transform: translate(100px, 100px); }
+  100% {
+    transform: scale(2, 0); } }
+
+.animacionImg {
+  animation-name: movimiento;
+  animation-iteration-count: 1;
+  animation-duration: 2s; }
+
+/*NAVBAR*/
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 5.56rem; }
+
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -58,26 +80,6 @@ footer {
 nav {
   width: 100%; }
 
-.overflow {
-  overflow: hidden; }
-
-.mover_imagen-servicios {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-h3, p {
-  font-family: "comic sans ms"; }
-
-.padding {
-  padding: -3px 50px; }
-
-.margin {
-  margin: 50px; }
-
-.margin-50 {
-  margin: 30px; }
-
 /*GRID MAIN*/
 .gridMain {
   display: grid;
@@ -111,6 +113,26 @@ h3, p {
 .gradient {
   background-image: linear-gradient(white, #74f17b, #0bce1c); }
 
+.overflow {
+  overflow: hidden; }
+
+.mover_imagen-servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+h3, p {
+  font-family: "comic sans ms"; }
+
+.padding {
+  padding: -3px 50px; }
+
+.margin {
+  margin: 50px; }
+
+.margin-50 {
+  margin: 30px; }
+
 /*PRODUCTO MAS VENDIDOS*/
 .letraTipoProducto {
   padding: 20px;
@@ -128,24 +150,6 @@ h3, p {
 .centrar {
   text-align: center;
   justify-content: space-between; }
-
-/*ANIMACION LOGO HEADER*/
-@keyframes movimiento {
-  0% {
-    transform: translateX(100px); }
-  25% {
-    transform: skew(60deg, 60deg); }
-  50% {
-    transform: rotate(45deg); }
-  75% {
-    transform: translate(100px, 100px); }
-  100% {
-    transform: scale(2, 0); } }
-
-.animacionImg {
-  animation-name: movimiento;
-  animation-iteration-count: 1;
-  animation-duration: 2s; }
 
 /*contactanos*/
 .bajar {
@@ -207,6 +211,6 @@ input {
   width: 200px;
   height: 25px; }
 
-/*NAVBAR*/
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 5.56rem; }
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  body h1 {
+    font-size: 30px; } }
