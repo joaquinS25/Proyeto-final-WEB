@@ -151,43 +151,55 @@ h3, p {
   text-align: center;
   justify-content: space-between; }
 
-/*contactanos*/
-.bajar {
-  margin-top: 60px;
-  margin-bottom: 60px; }
+@media (min-width: 768px) {
+  /*contactanos*/
+  .bajar {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+  .letraTipoEntrenamiento {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-family: "Open Sans", cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-shadow: 0 0 10px #e68b41;
+    color: #206dd1; }
+  .contenedorContactenos {
+    text-align: center;
+    display: flex;
+    width: 600px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    color: white;
+    background-image: url("../assets/img/fondoFormulario.jpg");
+    border-radius: 15%;
+    margin-left: 350px; }
+  .contenedorContactenos__formulario {
+    width: 490px;
+    height: 600px;
+    margin-top: 120px;
+    margin-left: 8px; }
+  .botonFormulario:hover, .botonLimpiar:hover {
+    background-color: #e68b41; }
+  textarea {
+    height: 85px;
+    width: 490px;
+    border-width: 2px; }
+  input {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 25px; } }
 
-.letraTipoEntrenamiento {
-  text-align: center;
-  margin-bottom: 20px;
-  margin-right: 60px;
-  font-family: "Open Sans", cursive;
-  font-weight: bold;
-  font-size: 3rem;
-  font-weight: 500;
-  line-height: 1.4rem;
-  text-shadow: 0 0 10px #e68b41;
-  color: #206dd1; }
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  body h1 {
+    font-size: 30px; } }
 
-.contenedorContactenos {
-  text-align: center;
-  display: flex;
-  width: 600px;
-  height: 500px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 60px;
-  color: white;
-  background-image: url("../assets/img/fondoFormulario.jpg");
-  border-radius: 15%;
-  margin-left: 350px; }
-
-.contenedorContactenos__formulario {
-  width: 490px;
-  height: 600px;
-  margin-top: 120px;
-  margin-left: 8px; }
-
-.botonFormulario {
+.botonFormulario, .botonLimpiar {
   color: black;
   background: #78CDBE;
   border: .1em solid gray;
@@ -198,19 +210,6 @@ h3, p {
   margin: 48px 20px;
   cursor: pointer; }
 
-.botonFormulario:hover {
-  background-color: #e68b41; }
-
-textarea {
-  height: 85px;
-  width: 490px;
-  border-width: 2px; }
-
-input {
-  margin-bottom: 20px;
-  width: 200px;
-  height: 25px; }
-
-@media only screen and (min-width: 769px) and (max-width: 1023px) {
-  body h1 {
-    font-size: 30px; } }
+.botonLimpiar {
+  background: #c74408;
+  border: .1em solid #c74408; }
