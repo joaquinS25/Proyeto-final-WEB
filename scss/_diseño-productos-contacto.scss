@@ -12,12 +12,13 @@
     text-shadow: 0 0 10px #e68b41;
     color: #206dd1;
 }
-
-.centrar {
-    text-align: center;
-    justify-content: space-between;
+@mixin centrar($text-align, $justify-content) {
+    text-align: $text-align;
+    justify-content: $justify-content;
 }
-
+.centrar{
+    @include centrar(center,space-between);
+}
 @media (min-width:768px) {
 
     /*contactanos*/
