@@ -100,11 +100,19 @@ nav {
     display: flex;
     flex-direction: column; } }
 
-.imgMain {
+.imgMain_soporte_tenico {
   grid-area: imgMain;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
-  padding: 2%; }
+  padding-top: 40px;
+  margin: 2%; }
+
+.imgMain_soporte_tecnico_2 {
+  grid-area: imgMain;
+  /*display: flex;*/
+  justify-content: center;
+  padding-top: 600px;
+  margin: 2%; }
 
 .txtMain {
   grid-area: txtMain;
