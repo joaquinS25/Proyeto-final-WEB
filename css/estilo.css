@@ -74,7 +74,8 @@ footer {
   background-color: aliceblue;
   padding: 20px 0; }
 
-.imgPrincipal img, .img img {
+.imgPrincipal img,
+.img img {
   width: 100%; }
 
 nav {
@@ -90,7 +91,8 @@ nav {
 @media only screen and (max-width: 768px) {
   body .gridIndex {
     background-color: green; }
-  header, footer {
+  header,
+  footer {
     flex-direction: column; }
   li {
     padding: 5px; }
@@ -102,17 +104,87 @@ nav {
 
 .imgMain_soporte_tenico {
   grid-area: imgMain;
-  /*display: flex;*/
   justify-content: center;
   padding-top: 40px;
   margin: 2%; }
 
 .imgMain_soporte_tecnico_2 {
   grid-area: imgMain;
-  /*display: flex;*/
   justify-content: center;
-  padding-top: 600px;
+  padding-top: 640px;
   margin: 2%; }
+
+@media only screen and (min-width: 228px) and (max-width: 269px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 20px; } }
+
+@media only screen and (min-width: 270px) and (max-width: 768px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 20px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 795px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 350px; } }
+
+@media only screen and (min-width: 796px) and (max-width: 830px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 370px; } }
+
+@media only screen and (min-width: 831px) and (max-width: 848px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 370px; } }
+
+@media only screen and (min-width: 849px) and (max-width: 950px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 500px; } }
+
+@media only screen and (min-width: 951px) and (max-width: 1326px) {
+  .imgMain_soporte_tenico {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 5%; }
+  .imgMain_soporte_tecnico_2 {
+    grid-area: imgMain;
+    justify-content: center;
+    padding-top: 640px;
+    margin: 5%; } }
 
 .txtMain {
   grid-area: txtMain;
@@ -130,7 +202,8 @@ nav {
   flex-direction: row;
   justify-content: center; }
 
-h3, p {
+h3,
+p {
   font-family: "comic sans ms";
   padding: 2%; }
 
